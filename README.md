@@ -1,36 +1,223 @@
-Tutorial 05 - Group 03
+# 🎬 CineMagic — Indie Theatre Discovery & Ticket Booking Web App
 
-Team Members:
-Tanvir Ahamed Himel
-, Rohit Nair
-, Raj Chitodra
-, Ali Savab Pour
-, Viet Ho
+> A purpose-built web application for Calgary's cherished independent theatre, CineMagic. Designed for indie film enthusiasts seeking a unique cinematic experience beyond the mainstream.
 
+![CineMagic Banner](screenshots/homepage.png)
 
+---
 
-WELCOME TO CINEMAGIC!
+## 🌐 Live Demo
 
-The landing page has two sections: the home and profile sections. We suggest users click on the profile section where they can easily create a profile, which would make purchasing tickets for the next time easier since the users' information would be saved and there would be no need to re-enter some of the information after signing up. Upon clicking on the profile section the users are navigated to a signup page, where they can enter their email and password and click on the signup button to create their own profile on the website. 
+🔗 [cinemagic-rust.vercel.app](https://cinemagic-rust.vercel.app)
 
-Also, if they already have an account on the website, they can log in to their account by entering the email and password they signed up with. For people who may forget their password, we have a “Forgot Password?” option, in which they can enter their email and if there exists an account with that email, they will receive an email with a link to reset their password with it.
+---
 
-After logging in, the user is taken to the profile page, where they can review their purchase history and update their profile, like changing their profile picture, name, email, and phone number, and choosing their preferred payment method. For instance, by choosing the credit card option, the user is taken to a page where they can enter their credit card information and have it saved on their profile for easy purchase.
+## 👥 Team — Tutorial 05, Group 03
 
-By going to our homepage, the user has the option to logout by clicking on the button next to the profile now if they are logged in. On the homepage, the users are greeted with information about our theatre and get a glimpse of our lovely theatre. As they scroll down the “GET TICKETS” button helps the user to see the movies that are being shown and by scrolling to the bottom of the homepage users can see the latest news articles related to the movies. These articles show an image, a title, and a short description of the article. By clicking on each of the news articles, users can open them and read the longer description of the article which explains it in more detail.
+| Name | Role |
+|------|------|
+| **Tanvir Ahamed Himel** | Frontend Developer — UI/UX Design (Figma), Interactive Components, React State Management |
+| Viet Ho | Frontend Developer |
+| Rohit Nair | Frontend Developer |
+| Raj Chitodra | Frontend Developer |
+| Ali Savab Pour | Frontend Developer |
 
-The easy-to-use carousel can used to navigate through the featured movies and upon clicking on a preferred movie the user is taken to the next page. The next page has the movie poster and a short description of the movie, there are multiple buttons like the watch trailer button where the user can see a live trailer of the movie and the read reviews button where the user would be able to read IMDb verified reviews, both these options would help the user to decide on if they prefer the cinema. After the user has made their mind up they can now click on the showtime button where taken to the date selection page where they can pick the date by clicking on the date selection calendar, and then select the available showtimes just below, after the user has selected a date and a showtime then can click on the confirm showtime button. Upon clicking the confirm button, the users get an alert about the exact date and showtime chosen.
+> 📌 **My Contribution:** As the UI/Figma lead, I was responsible for designing the wireframes and high-fidelity prototypes in Figma before development began. I contributed to building interactive React components, implementing state management using React Hooks, and ensuring a consistent, responsive visual language across all pages of the application.
 
-When the user clicks “ok” on the alert, they are now taken to a simple and easy-selecting ticket-type page. There are several categories for different age groups, for example the user is an adult and has two children, they can click the plus sign once on the adult section to add an adult ticket and click on the plus sign twice on the child section to add two tickets. Upon doing the user is shown the rough total amount below. We have also added a special assistance bar where the user would be able to let us know about any special assistance they need so that we can accommodate them. 
+---
 
-They can finally confirm their tickets by clicking the confirm ticket button. After confirming the user would date to the seat selection page where we have a comprehensive layout for the user to choose their seats. As the seats are selected they are star marked showing the seats selected. To help the users better understand the seat types we have set different icons with labels, which makes it easier for the users to identify their required seat. If the user confirms 3 tickets and selects 4 seats and presses the confirm seat button they are given an alert to choose the same number of seats as the same number of tickets confirmed when the users are done choosing their seats, they can now hit the confirm seat button.
+## 🛠️ Tech Stack
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-After choosing and confirming the preferred seats, the user is taken to the payment and contact page which asks the user for their email, phone number, and payment method after choosing the payment method, they can enter their payment information too; but if they are signed to their profile, all these information will be there by default. In addition, on the payment page, we have a promo code section that allows the user who has promo codes to apply them and get discounts on their purchase. 
+---
 
-After entering all the required information and clicking on the confirm, users are taken to a page that shows a summary of their purchase which shows the information about the movie, showtime, location, number of tickets, seat numbers, user’s information, and in the bottom they can see the prices and fees that they are paying. By confirming the payment, the user will receive an email that contains their ticket and will be taken to a page where they can see a QR code to their ticket, order number, cost, date, and time and a button to download the ticket.
+## ✨ Features Overview
 
+| Feature | Description |
+|---------|-------------|
+| 🏠 Landing Page | Theatre intro, featured movies carousel, movie news |
+| 🎥 Movie Listings | Browse currently airing indie films with ratings |
+| 📰 Movie News | Latest news articles from the indie film world |
+| 🎬 Movie Detail Page | Poster, description, trailer, reviews, showtimes |
+| ⭐ User Reviews | Star ratings and verified user review system |
+| 📅 Showtime Selection | Date picker + available showtime slots |
+| 🎟️ Ticket Booking | Multi-category ticket selection with subtotal |
+| 💺 Seat Selection | Interactive seat map with accessibility options |
+| 💳 Payment & Checkout | Multiple payment methods + promo code support |
+| 📧 Order Confirmation | QR code ticket, order summary, downloadable ticket |
+| 👤 User Authentication | Sign up, log in, forgot password, reset password |
+| 🔐 Password Validation | Secure password requirements with inline guidance |
+| 👤 Profile Management | Edit name, email, phone, profile picture, payment method |
+| 📜 Order History | Past bookings saved to user profile |
 
-After the order the user has their order saved under their order history if they are logged in. If the user feels the need that they want to change their password. They can use the change password button right above to change their password. Changing password have been made very simple as the user would just have to enter their previous password, and then enter the new one and confirm it. We have given the eye button which helps the user see what they are writing and the question button which guides the user on what letters, characters or numbers should be used for making a secure password. 
+---
 
-We have created an easy-to-use, sequential, user-friendly system where users can enjoy their favourite indie cinemas. Thanks for using CINEMAGIC!
+## 📸 Application Walkthrough
+
+### 🏠 Homepage — Welcome to CineMagic
+Calgary's cherished independent theatre, established in 2006. The homepage greets users with the theatre's story, a featured movies carousel, and the latest indie film news.
+
+![Homepage](screenshots/homepage.png)
+
+---
+
+### 🎥 Featured Movies — Browse Currently Airing Films
+An easy-to-use carousel lets users browse currently showing indie films. Each card displays the movie poster, title, runtime, and age rating.
+
+![Featured Movies](screenshots/featured_movies.png)
+
+---
+
+### 📰 Movie News — Stay Up to Date
+Scroll down the homepage to discover the latest news articles from the indie film world. Click any article to read the full story in an interactive modal.
+
+![Movie News](screenshots/movie_news.png)
+![News Modal](screenshots/news_modal.png)
+
+---
+
+### 🎬 Movie Detail Page — Explore Before You Book
+Clicking a movie takes you to a dedicated detail page with the poster, synopsis, runtime, and age rating. From here users can watch the trailer, read reviews, or proceed to showtimes.
+
+![Movie Detail](screenshots/movie_detail.png)
+
+---
+
+### ⭐ User Reviews — Community Ratings
+Each movie has a dedicated reviews page showing an aggregate star rating and individual verified user reviews with scores out of 5.
+
+![Reviews](screenshots/reviews.png)
+![Reviews Continued](screenshots/reviews_2.png)
+
+---
+
+### 📅 Showtime Selection — Pick Your Date & Time
+Users select their preferred screening date using an interactive calendar, then choose from available showtimes displayed as clickable buttons.
+
+![Showtime Selection](screenshots/showtimes.png)
+
+---
+
+### 🎟️ Ticket Selection — Choose Your Tickets
+A clean ticket selection interface with categories for Adults, Children, and Seniors. Real-time subtotal updates as tickets are added. Includes a special assistance field for accessibility needs.
+
+![Ticket Selection](screenshots/ticket_selection.png)
+
+---
+
+### 💺 Seat Selection — Interactive Seat Map
+A comprehensive theatre seat layout showing available (green), unavailable (grey), and accessibility seats (blue). Users select seats matching their ticket count, with real-time validation.
+
+![Seat Selection](screenshots/seat_selection.png)
+
+---
+
+### 💳 Payment & Checkout — Secure & Flexible
+Users enter contact details and choose from Apple Pay, Google Pay, or Credit Card. A promo code field allows discounts to be applied. Logged-in users have their details pre-filled automatically.
+
+![Payment](screenshots/payment.png)
+
+---
+
+### 📋 Order Confirmation — Review Before You Pay
+A full order summary page displaying movie details, showtime, seat number, ticket breakdown, fees, and total price before final confirmation.
+
+![Order Confirmation](screenshots/confirmation_1.png)
+![Order Summary](screenshots/confirmation_2.png)
+
+---
+
+### 🎫 Ticket & QR Code — You're All Set!
+After completing the order, users receive a QR code ticket with their order number, cost, date, and showtime. Tickets can be downloaded directly and are also sent via email.
+
+![QR Code Ticket](screenshots/qr_code.png)
+![Download Success](screenshots/download_success.png)
+
+---
+
+### 👤 User Authentication — Sign Up & Login
+Users can create a profile to save their information for faster future bookings. Secure login with email validation, password strength requirements, and a forgot password flow via email reset link.
+
+![Login](screenshots/login.png)
+![Password Validation](screenshots/password_validation.png)
+![Reset Password](screenshots/reset_password.png)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v14+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/viet-ho/CineMagic.git
+
+# Navigate to project directory
+cd CineMagic
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+The app will run at `http://localhost:3000`
+
+---
+
+## 📁 Project Structure
+
+```
+CineMagic/
+├── public/
+├── src/
+│   ├── components/        # Reusable React components
+│   ├── pages/             # Page-level components
+│   │   ├── Home/
+│   │   ├── MovieInfo/
+│   │   ├── Reviews/
+│   │   ├── DateSelection/
+│   │   ├── TicketSelection/
+│   │   ├── SeatBooking/
+│   │   ├── Payment/
+│   │   ├── CreditCard/
+│   │   ├── ConfirmationPage/
+│   │   └── Profile/
+│   ├── App.js
+│   └── index.js
+└── package.json
+```
+
+---
+
+## 🎯 Key Technical Highlights
+
+- **Component-based architecture** — Modular React components for scalability and reusability
+- **React Hooks** — `useState` and `useEffect` for dynamic UI updates and state management
+- **React Router** — Multi-page navigation with clean URL routing
+- **Form validation** — Real-time input validation with user-friendly error modals
+- **Responsive design** — Consistent UI across desktop and mobile viewports
+- **Accessibility** — Dedicated accessibility seat options and special assistance field in booking flow
+- **Authentication flow** — Email/password auth with password reset via email link
+
+---
+
+## 📄 License
+
+This project was developed as part of CPSC coursework at the **University of Calgary**.  
+Team: Tutorial 05, Group 03 — Nov/Dec 2023
+
+---
+
+<p align="center">Made with ❤️ by the CineMagic Team — University of Calgary</p>
