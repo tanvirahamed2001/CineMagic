@@ -19,7 +19,7 @@
 | **Tanvir Ahamed Himel** | Frontend Developer — UI/UX Design (Figma), Interactive Components, React State Management |
 | Viet Ho | Frontend Developer |
 | Rohit Nair | Frontend Developer |
-| Raj Chitodra | Frontend Developer |
+| Raj Chitodra | Business Consultant|
 | Ali Savab Pour | Frontend Developer |
 
 > 📌 **My Contribution:** As the UI/Figma lead, I was responsible for designing the wireframes and high-fidelity prototypes in Figma before development began. I contributed to building interactive React components, implementing state management using React Hooks, and ensuring a consistent, responsive visual language across all pages of the application.
