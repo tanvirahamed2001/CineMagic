@@ -2,7 +2,7 @@
 
 > A purpose-built web application for Calgary's cherished independent theatre, CineMagic. Designed for indie film enthusiasts seeking a unique cinematic experience beyond the mainstream.
 
-![CineMagic Banner](screenshots/homepage.png)
+![CineMagic Banner](screenshots/CM%20Homepage%201.png)
 
 ---
 
@@ -19,7 +19,7 @@
 | **Tanvir Ahamed Himel** | Frontend Developer — UI/UX Design (Figma), Interactive Components, React State Management |
 | Viet Ho | Frontend Developer |
 | Rohit Nair | Frontend Developer |
-| Raj Chitodra | Business Consultant|
+| Raj Chitodra | Frontend Developer |
 | Ali Savab Pour | Frontend Developer |
 
 > 📌 **My Contribution:** As the UI/Figma lead, I was responsible for designing the wireframes and high-fidelity prototypes in Figma before development began. I contributed to building interactive React components, implementing state management using React Hooks, and ensuring a consistent, responsive visual language across all pages of the application.
@@ -63,90 +63,84 @@
 ### 🏠 Homepage — Welcome to CineMagic
 Calgary's cherished independent theatre, established in 2006. The homepage greets users with the theatre's story, a featured movies carousel, and the latest indie film news.
 
-![Homepage](screenshots/homepage.png)
-
----
-
-### 🎥 Featured Movies — Browse Currently Airing Films
-An easy-to-use carousel lets users browse currently showing indie films. Each card displays the movie poster, title, runtime, and age rating.
-
-![Featured Movies](screenshots/featured_movies.png)
+![Homepage 1](screenshots/CM%20Homepage%201.png)
+![Homepage 2](screenshots/CM%20Homepage%202.png)
+![Homepage 3](screenshots/CM%20Homepage%203.png)
 
 ---
 
 ### 📰 Movie News — Stay Up to Date
 Scroll down the homepage to discover the latest news articles from the indie film world. Click any article to read the full story in an interactive modal.
 
-![Movie News](screenshots/movie_news.png)
-![News Modal](screenshots/news_modal.png)
+![News](screenshots/News.png)
 
 ---
 
 ### 🎬 Movie Detail Page — Explore Before You Book
 Clicking a movie takes you to a dedicated detail page with the poster, synopsis, runtime, and age rating. From here users can watch the trailer, read reviews, or proceed to showtimes.
 
-![Movie Detail](screenshots/movie_detail.png)
+![Movie Options](screenshots/Movie%20Options.png)
+
+---
+
+### 🎥 Movie Selection — Browse Currently Airing Films
+An easy-to-use carousel lets users browse currently showing indie films. Each card displays the movie poster, title, runtime, and age rating.
+
+![Movie Selection](screenshots/Movie%20selection.png)
 
 ---
 
 ### ⭐ User Reviews — Community Ratings
 Each movie has a dedicated reviews page showing an aggregate star rating and individual verified user reviews with scores out of 5.
 
-![Reviews](screenshots/reviews.png)
-![Reviews Continued](screenshots/reviews_2.png)
-
----
-
-### 📅 Showtime Selection — Pick Your Date & Time
-Users select their preferred screening date using an interactive calendar, then choose from available showtimes displayed as clickable buttons.
-
-![Showtime Selection](screenshots/showtimes.png)
+![Reviews](screenshots/Reviews.png)
 
 ---
 
 ### 🎟️ Ticket Selection — Choose Your Tickets
 A clean ticket selection interface with categories for Adults, Children, and Seniors. Real-time subtotal updates as tickets are added. Includes a special assistance field for accessibility needs.
 
-![Ticket Selection](screenshots/ticket_selection.png)
+![Ticket Type](screenshots/Ticket%20type.png)
 
 ---
 
 ### 💺 Seat Selection — Interactive Seat Map
 A comprehensive theatre seat layout showing available (green), unavailable (grey), and accessibility seats (blue). Users select seats matching their ticket count, with real-time validation.
 
-![Seat Selection](screenshots/seat_selection.png)
+![Seat Plan](screenshots/Seat%20plan.png)
 
 ---
 
 ### 💳 Payment & Checkout — Secure & Flexible
 Users enter contact details and choose from Apple Pay, Google Pay, or Credit Card. A promo code field allows discounts to be applied. Logged-in users have their details pre-filled automatically.
 
-![Payment](screenshots/payment.png)
+![Payment Info 1](screenshots/Payment%20info%201.png)
+![Payment Info 2](screenshots/Payment%20info%202.png)
 
 ---
 
 ### 📋 Order Confirmation — Review Before You Pay
-A full order summary page displaying movie details, showtime, seat number, ticket breakdown, fees, and total price before final confirmation.
+A full order summary page displaying movie details, showtime, seat number, ticket breakdown, fees, and total price before final confirmation. Users receive a QR code ticket with their order number, downloadable directly.
 
-![Order Confirmation](screenshots/confirmation_1.png)
-![Order Summary](screenshots/confirmation_2.png)
-
----
-
-### 🎫 Ticket & QR Code — You're All Set!
-After completing the order, users receive a QR code ticket with their order number, cost, date, and showtime. Tickets can be downloaded directly and are also sent via email.
-
-![QR Code Ticket](screenshots/qr_code.png)
-![Download Success](screenshots/download_success.png)
+![Confirmation 1](screenshots/Confirmation%201.png)
+![Confirmation 2](screenshots/Confirmation%202.png)
 
 ---
 
-### 👤 User Authentication — Sign Up & Login
-Users can create a profile to save their information for faster future bookings. Secure login with email validation, password strength requirements, and a forgot password flow via email reset link.
+### 🔘 Interactive UI — Buttons & Feature Components
+Carefully designed interactive button components and UI elements built with React, ensuring a seamless and intuitive user experience throughout the booking flow.
 
-![Login](screenshots/login.png)
-![Password Validation](screenshots/password_validation.png)
-![Reset Password](screenshots/reset_password.png)
+![Button Features 1](screenshots/Button%20features%201.png)
+![Button Features 2](screenshots/Button%20features%202.png)
+
+---
+
+### 👤 User Profile — Authentication & Account Management
+Users can create a profile to save their information for faster future bookings. Secure login with email validation, password strength requirements, forgot password flow, and full profile management including order history.
+
+![User Profile 1](screenshots/User%20Profile%201.png)
+![User Profile 2](screenshots/User%20Profile%202.png)
+![User Profile 3](screenshots/User%20Profile%203.png)
 
 ---
 
